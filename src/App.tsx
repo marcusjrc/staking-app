@@ -10,7 +10,6 @@ const App = () => {
     return (
         <Web3ReactProvider getLibrary={(provider) => new providers.Web3Provider(provider)}>
             <CssBaseline />
-
             <ThemeProvider theme={theme}>
                 <Router>
                     <Routes>
